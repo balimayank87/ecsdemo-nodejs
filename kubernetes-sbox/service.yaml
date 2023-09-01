@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ecsdemo-nodejs
+  name: ecsdemo-nodejs-sbox
 spec:
   selector:
-    app: ecsdemo-nodejs
+    app: ecsdemo-nodejs-sbox
   ports:
    -  protocol: TCP
       port: 80
